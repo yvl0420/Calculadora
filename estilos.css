@@ -1,0 +1,102 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.calculadora {
+    width: 300px;
+    background-color: #000;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+    height: auto;
+}
+
+.pantalla {
+    width: 100%;
+    height: 80px;
+    background: black;
+    color: white;
+    text-align: right;
+    font-size: 2.5em;
+    padding: 10px;
+    border-radius: 10px;
+    overflow-x: auto;
+}
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.botones-cientificos {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+}
+
+.mostrar-cientifico {
+    max-height: 200px;
+}
+
+.boton {
+    width: 100%;
+    height: 60px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.boton.gris {
+    background-color: #A5A5A5;
+    color: black;
+}
+
+.boton.negro {
+    background-color: #333;
+    color: white;
+}
+
+.boton.naranja {
+    background-color: #FF9500;
+    color: white;
+}
+
+.boton.cero {
+    grid-column: span 2;
+    width: 100%;
+}
+
+/* Botón para cambiar de modo */
+.boton-modo {
+    background-color: #FF9500;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.2s;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.boton-modo:hover {
+    background-color: #e07e00;
+}
