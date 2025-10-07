@@ -6,17 +6,19 @@
 
 ## Descripción
 
-Calculadora desarrollada con **HTML, CSS y JavaScript**, capaz de realizar operaciones básicas como suma, resta, multiplicación y división.  
-El proyecto busca practicar lógica en JavaScript y manejo del DOM de forma sencilla, con una interfaz limpia y responsive.
+Este proyecto es una **calculadora web** con funciones **básicas y científicas**, desarrollada con **HTML, CSS y JavaScript**.  
+Permite realizar operaciones matemáticas simples (`+`, `-`, `×`, `÷`) y funciones avanzadas como **seno**, **coseno**, **tangente**, **logaritmos** y **raíz cuadrada**.  
+Además, incluye un **modo científico** que puede activarse o desactivarse según la necesidad del usuario.
 
 ---
 
 ## Funcionalidades
 
-- Operaciones aritméticas básicas  
+- Operaciones básicas: suma, resta, multiplicación y división  
+- Funciones científicas: sin, cos, tan, log, √  
+- Modo científico activable/desactivable  
 - Limpieza de pantalla y control de errores  
-- Diseño adaptable a distintos tamaños de pantalla  
-- Interfaz simple e intuitiva  
+- Diseño claro, minimalista y **responsive**
 
 ---
 
@@ -28,7 +30,7 @@ El proyecto busca practicar lógica en JavaScript y manejo del DOM de forma senc
 
 ---
 
-## 🚀 Cómo usarla
+## Cómo usarla
 
 1. Clona este repositorio:  
    ```bash
