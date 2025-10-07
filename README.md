@@ -1,17 +1,17 @@
-# 🧮 Calculadora Web
+# Calculadora Web
 
 **Demo en vivo:** [https://yvl0420.github.io/Calculadora/](https://yvl0420.github.io/Calculadora/)
 
 ---
 
-## 📖 Descripción
+## Descripción
 
 Calculadora desarrollada con **HTML, CSS y JavaScript**, capaz de realizar operaciones básicas como suma, resta, multiplicación y división.  
 El proyecto busca practicar lógica en JavaScript y manejo del DOM de forma sencilla, con una interfaz limpia y responsive.
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 - Operaciones aritméticas básicas  
 - Limpieza de pantalla y control de errores  
@@ -20,7 +20,7 @@ El proyecto busca practicar lógica en JavaScript y manejo del DOM de forma senc
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - **HTML5**  
 - **CSS3**  
